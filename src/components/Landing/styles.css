@@ -1,0 +1,17 @@
+.chat-room-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2rem;
+  height: 425px;
+  min-height: 425px;
+  overflow-y: scroll;
+}
+.chat-room-list a {
+  cursor: pointer;
+  height: 100px;
+  flex: 1 1 calc(50% - 4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
